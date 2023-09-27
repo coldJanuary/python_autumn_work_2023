@@ -63,10 +63,10 @@ d1 = {}
 d2 = {}
 
 for i in sen1:
-    if i not in string.punctuation and i != ' ':
+    if i not in string.punctuation + ' 1234567890':
         d1[i] = d1.get(i, 0) + 1
 for i in sen2:
-    if i not in string.punctuation and i != ' ':
+    if i not in string.punctuation + ' 1234567890':
         d2[i] = d2.get(i, 0) + 1
 
 print(d1 == d2)
