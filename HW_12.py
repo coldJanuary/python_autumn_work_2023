@@ -17,6 +17,7 @@ q = [x for y in range(1,11) for x in [y]*y]
 
 
 
+
 # ******************** TASK 3 ********************
 
 def numbers_from_range(s):
